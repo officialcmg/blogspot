@@ -59,7 +59,9 @@ header {
 .nav ul li a:hover {
     background-color: rgb(50, 50, 50);
 }
-
+#manpic {
+    width: 100%;
+}
 
 h1 {
     text-align: center;
