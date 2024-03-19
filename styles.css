@@ -146,5 +146,6 @@ img {
 
 article img {
     display: block;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
 }
