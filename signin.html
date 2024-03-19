@@ -22,17 +22,19 @@
             </nav>
         </header>
         <section class="content container">
-            <form>
-                <h1>Sign In</h1>
-        
-                <label for="emailinput"><b>Email</b></label>
-                <input type="text" placeholder="Enter Email" name="email" id="emailinput" required>
-
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
-                <button type="submit">Log In</button>
+            <h1>Sign In</h1>
+            <form class="simple-form">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" id="signin">Sign in</button>
             </form>
+                
         </section>
     </main>
 </body>

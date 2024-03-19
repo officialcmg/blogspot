@@ -23,7 +23,15 @@
         </header>
         <section class="content container">
                 <h1>Sign Up</h1>
-                <form>
+                <form class="simple-form">
+                    <div>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
                     <div>
                         <label for="username">Username:</label>
                         <input type="text" id="username" name="username" required>
@@ -36,10 +44,7 @@
                         <label for="password">Password:</label>
                         <input type="password" id="password" name="password" required>
                     </div>
-                    <div>
-                        <label for="confirm_password">Confirm Password:</label>
-                        <input type="password" id="confirm_password" name="confirm_password" required>
-                    </div>
+                    
                     <button type="submit" id="signup">Sign Up</button>
                 </form>
             </section>

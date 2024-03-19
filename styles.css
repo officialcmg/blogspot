@@ -14,9 +14,14 @@ body {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     overflow-x: hidden;
+    font-size: 1.3rem;
 }
 a {
     color: var(--clr-indigo);
+}
+p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
 .container {
     max-width: 1000px;
@@ -66,7 +71,13 @@ header {
 }
 
 h1 {
+    font-size: 2.9rem;
     text-align: center;
+}
+
+img {
+    display: block;
+    aspect-ratio: 16 / 9;
 }
 .blog-card {
     background-color: #111827;
@@ -87,7 +98,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.blog-card p {
+.blog-card p {  
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -97,11 +108,10 @@ h1 {
     cursor: pointer;
     color: inherit;
 }
-#signup {
+#signup, button {
     display: inline-block;
-    font-weight: 600;
     text-decoration: none;
-    letter-spacing: -0.05em;
+    font-weight: 600;
     background-color: var(--clr-rose);
     color: var(--clr-light);
     padding: 0.5em 1em;
@@ -109,4 +119,32 @@ h1 {
 }
 #signup:hover {
     background-color: #b91c1c;
+}
+.simple-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.simple-form div {
+    margin-bottom: 15px;
+}
+
+.simple-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.simple-form input[type="text"],
+.simple-form input[type="email"],
+.simple-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+article img {
+    display: block;
+    width: 100%;
 }
